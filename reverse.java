@@ -7,7 +7,7 @@ public class reverse {
         String s = "";
         xp.close();
         for (int i = s1.length() - 1; i >= 0; i--) {
-            s = s + s1.charAt(i);
+            s = s + s1.charAt(i); //reverse
         }
         System.out.println("Reverse of the string is:- " + s);
     }
