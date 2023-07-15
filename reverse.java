@@ -1,4 +1,6 @@
 import java.util.*;
+
+//importing java utility package
 public class reverse {
     public static void main(String[] args) {
         Scanner xp = new Scanner(System.in);
