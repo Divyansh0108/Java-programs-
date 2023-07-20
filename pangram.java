@@ -1,7 +1,7 @@
 
-public class pangram 
+public class pangram  
 {
-    public static void main(String[] args) 
+    public static void main(String[] args) // time complexity: O(n)
     {
         boolean flag=false;
         String str="THE QUICK BROWN FOX JUMPS OVER LAZY DOG";
@@ -10,9 +10,9 @@ public class pangram
 
         int ar[]=new int[26];
 
-        for(int i=0;i<ch.length;i++)
+        for(int i=0;i<ch.length;i++) 
         {
-            ar[ch[i]-65]++;
+            ar[ch[i]-65]++; //ASCII value of A is 65
         }
         for(int i=0;i<ar.length;i++)
         {

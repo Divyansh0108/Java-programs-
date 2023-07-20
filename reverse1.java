@@ -1,5 +1,5 @@
 import java.util.*;
-public class reverse1 {
+public class reverse1 { // time complexity: O(n)
     public static void main(String[] args) {
         Scanner xp = new Scanner(System.in);
         System.out.println("Enter the sentence:- ");

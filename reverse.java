@@ -1,7 +1,7 @@
 import java.util.*;
 
 //importing java utility package
-public class reverse {
+public class reverse { // time complexity: O(n)
     public static void main(String[] args) {
         Scanner xp = new Scanner(System.in);
         System.out.print("Enter a string:- ");
